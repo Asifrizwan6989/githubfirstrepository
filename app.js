@@ -1,7 +1,5 @@
-/**
- * Created by asif on 07-07-2015.
- */
-var app=angular.module('asif',['fisa','first','second']);
+
+var app=angular.module('asif',[]);
 app.controller('detailcontroller',function(){
     this.dev=function(val){
         alert(val);
